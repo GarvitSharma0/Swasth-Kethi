@@ -35,7 +35,7 @@ The model is evaluated on a separate test set. The evaluation metrics include:
 ## Results
 Best Val Acc: 98.94%
 Test Accuracy of 98% (9744/9856)
-![plot](./home/garv/Downloads/epochs.png)
+![plot](.frontend/epochs.png)
 
 ## Installation
 
