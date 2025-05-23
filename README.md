@@ -1,30 +1,42 @@
-# Plant Disease Classification using Swin Transformer
+🌿 Plant Disease Detection using Swin Transformer
+A Smart, Scalable, and Conversational AI for Farmers
+🚀 Project Highlights
+✅ Deployable on Low-Power Devices – Model optimized for edge deployment, ideal for real-world farm use where high-end hardware isn't available.
 
-This project implementsng model for classifying plant diseases from leaf images. The model is built using the Swin Transformer architecture and is trained on a dataset containing images of various plant diseases. The goal is to accurately classify the type of disease present in the input image.
+🌍 Supports 150+ Languages – Frontend and chatbot are multilingual, ensuring accessibility across regions and user demographics.
 
+💬 AI Chatbot for Cure & Prevention – Integrated AI assistant helps users understand symptoms and suggests preventive measures and treatments.
 
-## Introduction
+📸 High-Accuracy Detection – Achieved 98.94% validation accuracy on a dataset of 100,000+ images across 38 plant disease classes.
 
-Plant diseases can significantly impact agricultural productivity. Early and accurate detection of these diseases is crucial for effective management. This project leverages the Swin Transformer, a state-of-the-art deep learning model, to classify plant diseases from leaf images with high accuracy.
+🔧 Tech Stack
+Model: Swin Transformer (Vision Transformer)
 
-## Dataset
+Training: PyTorch, Adam optimizer, Cross-Entropy loss
 
-The dataset used in this project consists of images of healthy and diseased plant leaves. It includes 38 classes, each representing a specific disease or a healthy leaf. The images are preprocessed and augmented before being fed into the model.
+Frontend: React.js (Multilingual UI)
 
-## Model Architecture
+Backend: Django REST API + AI-powered chatbot
 
-The model is based on the Swin Transformer architecture, which has been shown to perform well on various computer vision tasks. The Swin Transformer operates by shifting windows across an image and processing patches in a hierarchical manner, enabling the model to capture both local and global features.
+Deployment-Ready: Lightweight model enables deployment on mobile and edge devices
 
-## Training
+🌱 Why This Project is Unique
+Traditional plant disease models are too large or require heavy compute. This project is different:
 
-The model is trained using PyTorch with the following configuration:
-- **Optimizer:** Adam
-- **Learning Rate:** 0.001
-- **Loss Function:** Cross-Entropy Loss
-- **Number of Epochs:** 20 
-- **Batch Size:** 32
+It's lightweight, multilingual, and interactive
 
-Data augmentation techniques such as random rotations, flips, and scaling are applied to improve the model's generalization.
+Designed for real farmers, not just benchmarks
+
+Combines state-of-the-art AI with practical usability
+
+🎯 Use Case
+Farmers can:
+
+Upload a leaf photo
+
+Get instant disease prediction
+
+Chat with the AI assistant to learn about causes, cures, and prevention — in their native language.
 
 ## Evaluation
 
