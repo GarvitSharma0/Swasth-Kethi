@@ -39,33 +39,4 @@ Test Accuracy of 98% (9744/9856)
 ![plot](frontend/test.png)
 
 
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/plant-disease-classification.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd plant-disease-classification
-    ```
-3. Create a virtual environment and activate it:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-4. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue for any feature requests, bug fixes, or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+THANKYOU
